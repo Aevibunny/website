@@ -10,7 +10,7 @@
 }
 
 .header-container h1 {
-    size: 48px;
+    size: 24px;
     font-weight: bolder;
     color: #f9FAF8;
 }
@@ -20,4 +20,29 @@
     size: 18px;
     color: #e5e7eb;
     margin: 25px;
+}
+
+.upper-signup-right img {
+    max-height: 300px;
+    max-width: 350px;
+}
+
+.upper-signup {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #f9FAF8;
+    padding: 75px;
+    align-items: center;
+}
+
+.upper-signup button {
+    background-color: #3882F6;
+    color: #f9FAF8;
+    border-radius: 15px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border: none;
 }
